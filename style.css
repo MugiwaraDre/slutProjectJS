@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+
+	background: linear-gradient(
+		to right,
+		#b0dab9,
+		#dad299
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+    height: 75px;
+    width: 100%;
+    background: #5A3F37;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-left: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    align-content: center;
+    height: 90vh;
+}
+
+.searchContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 2rem;
+}
+
+.contentCard {
+	height: 250px;
+	width: 200px;
+
+	padding: 5px;
+
+	background: -webkit-linear-gradient(to right, #38ef7d, #11998e); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#38ef7d,
+		#11998e
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 5px;
+	border-style: solid;
+}
+
+.btn {
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 8px;
+
+	color: rgb(27, 166, 247);
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: 0.3s ease 
+}
+
+.btn:hover {
+	background-color: rgb(214, 226, 236);
+}
+
+#content {
+    padding-top: 1rem;
+}

@@ -7,7 +7,7 @@ const ui = new UI();
 
 const search = document.getElementById('searchUser');
 const button = document.getElementById('submit');
-const clearButton = document.getElementById('clear-btn');
+
 
 
 button.addEventListener('click', () => {
